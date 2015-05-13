@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'mac_os_x', '~> 1.4.6'
+cookbook 'homebrew', '~> 1.12.0'
